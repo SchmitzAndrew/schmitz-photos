@@ -1,0 +1,33 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+# Project Overview
+
+## Overview
+
+This is a personal website/ photo gallery with a strong focus on design and on mobile usability. 
+
+I'm planning on having two seperate pages: a homepage and a gallery. 
+
+### Homepage
+
+A cloud of selected photos that float around central text that says schmitz. photos. The photos's position in the cloud should move according to 
+the mouse or the gyroscope in the phone. 
+
+Underneath the cloud include some text. 
+
+### Gallery
+
+A variety of React Components that showcases photos in cool ways. 
+
+
+## Design 
+
+I don't want to have photos load in, everything should be seamless. 
+
+
+## Devlopment
+
+Use pnpm
