@@ -40,36 +40,36 @@ const Home = () => {
           className="text-5xl md:text-7xl z-50 text-white font-inter"
           containerRef={containerRef}
           fontVariationMapping={{
-            x: { name: "wght", min: 100, max: 900 },
-            y: { name: "slnt", min: 0, max: -10 },
+            y: { name: "wght", min: 100, max: 900 },
+            x: { name: "slnt", min: 0, max: -10 },
           }}
         />
       </motion.div>
 
       <div ref={scope}>
         <Floating sensitivity={1} className="overflow-hidden">
-          <FloatingElement depth={0.5} className="top-[8%] left-[11%]">
+          <FloatingElement depth={0.5} className="top-[10%] left-[15%]">
             <motion.img
               initial={{ opacity: 0 }}
               src={exampleImages[0].url}
               className="w-32 h-32 md:w-48 md:h-48 object-cover hover:scale-105 duration-200 cursor-pointer transition-transform"
             />
           </FloatingElement>
-          <FloatingElement depth={1} className="top-[10%] left-[32%]">
+          <FloatingElement depth={1} className="top-[15%] left-[30%]">
             <motion.img
               initial={{ opacity: 0 }}
               src={exampleImages[1].url}
               className="w-40 h-40 md:w-56 md:h-56 object-cover hover:scale-105 duration-200 cursor-pointer transition-transform"
             />
           </FloatingElement>
-          <FloatingElement depth={2} className="top-[2%] left-[53%]">
+          <FloatingElement depth={2} className="top-[5%] left-[50%]">
             <motion.img
               initial={{ opacity: 0 }}
               src={exampleImages[2].url}
               className="w-48 h-64 md:w-72 md:h-96 object-cover hover:scale-105 duration-200 cursor-pointer transition-transform"
             />
           </FloatingElement>
-          <FloatingElement depth={1} className="top-[0%] left-[83%]">
+          <FloatingElement depth={1} className="top-[10%] left-[70%]">
             <motion.img
               initial={{ opacity: 0 }}
               src={exampleImages[3].url}
@@ -77,14 +77,14 @@ const Home = () => {
             />
           </FloatingElement>
 
-          <FloatingElement depth={1} className="top-[40%] left-[2%]">
+          <FloatingElement depth={1} className="top-[35%] left-[10%]">
             <motion.img
               initial={{ opacity: 0 }}
               src={exampleImages[4].url}
               className="w-48 h-48 md:w-72 md:h-72 object-cover hover:scale-105 duration-200 cursor-pointer transition-transform"
             />
           </FloatingElement>
-          <FloatingElement depth={2} className="top-[70%] left-[77%]">
+          <FloatingElement depth={2} className="top-[50%] left-[65%]">
             <motion.img
               initial={{ opacity: 0 }}
               src={exampleImages[5].url}
@@ -92,14 +92,14 @@ const Home = () => {
             />
           </FloatingElement>
 
-          <FloatingElement depth={4} className="top-[73%] left-[15%]">
+          <FloatingElement depth={4} className="top-[60%] left-[20%]">
             <motion.img
               initial={{ opacity: 0 }}
               src={exampleImages[6].url}
               className="w-64 md:w-96 h-full object-cover hover:scale-105 duration-200 cursor-pointer transition-transform"
             />
           </FloatingElement>
-          <FloatingElement depth={1} className="top-[80%] left-[50%]">
+          <FloatingElement depth={1} className="top-[65%] left-[45%]">
             <motion.img
               initial={{ opacity: 0 }}
               src={exampleImages[7].url}
